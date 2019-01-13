@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/khang/CLionProjects/BattleShip/Base.h
+iostream
+-
+Ship.h
+C:/Users/khang/CLionProjects/BattleShip/Ship.h
+
+C:/Users/khang/CLionProjects/BattleShip/Ship.h
+
+C:/Users/khang/CLionProjects/BattleShip/computerGrid.h
+Ship.h
+C:/Users/khang/CLionProjects/BattleShip/Ship.h
+Base.h
+C:/Users/khang/CLionProjects/BattleShip/Base.h
+
+C:/Users/khang/CLionProjects/BattleShip/main.cpp
+iostream
+-
+ctime
+-
+playerGrid.h
+C:/Users/khang/CLionProjects/BattleShip/playerGrid.h
+computerGrid.h
+C:/Users/khang/CLionProjects/BattleShip/computerGrid.h
+fstream
+-
+string
+-
+limits
+-
+
+C:/Users/khang/CLionProjects/BattleShip/playerGrid.h
+iostream
+-
+Base.h
+C:/Users/khang/CLionProjects/BattleShip/Base.h
+

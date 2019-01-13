@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/khang/CLionProjects/HW1/guess.h
+iostream
+-
+vector
+-
+stdlib.h
+-
+string
+-
+sstream
+-
+
+C:/Users/khang/CLionProjects/HW1/main.cpp
+iostream
+-
+vector
+-
+cstdlib
+-
+guess.h
+C:/Users/khang/CLionProjects/HW1/guess.h
+

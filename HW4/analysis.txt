@@ -1,0 +1,29 @@
+T operator[] 
+Time complexity: Constant or O(1) 
+return vec[index] ( O(1) )
+
+pop_back()
+Time complexity: Linear or O(n)
+vsize == 0 , T* tempt = new T[vsize] , vec = tempt , vsize-- , tempt = nullptr, 
+delete tempt. All have the same time complexity ( O(1) )
+Loop ( O(n) )
+=> Time complexity = O(1) + O(1) + O(1) + O(1) + O(1) + O(1) + O(n) = O(n)
+ 
+push_back()
+Time complexity : Linear or O(n)
+ T* tempt = new T[vsize + 1] , tempt[vsize] = value , vec = tempt , vsize++ , tempt = nullptr, 
+delete tempt. All have the same time complexity ( O(1) )
+Loop ( O(n) )
+=> Time complexity = O(1) + O(1) + O(1) + O(1) + O(1) + O(1) + O(n) = O(n)
+
+size()
+Time complexity : Constant or O(1)
+return vsize (O(1))
+
+empty()
+Time complexity : Constant or O(1)
+vsize == 0 , return  (0(1))
+
+search()
+Time complexity : Linear or O(n) 	
+Loop ( O(n) )

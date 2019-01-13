@@ -1,0 +1,14 @@
+Asymtotic Analysis
+Insert at front: 
+If headPtr is null => no node in linked list then create a new node and add one into linked list. 
+Time complexity: constant (0(1))
+else
+If headPtr is not null => exist some node in linkedlist. Create a new node and connect this
+node to linkedlist which comes after headPtr.
+Time complexity: constant(0(1))
+Total time complexity: constant (0(1))
+Insert at back: 
+Let say I have n nodes in linked list. If I want to insert at the back of linked list, I have to
+go from head to where pTr point to nullptr. Then I have to create a new node and put the new node
+in linked list. This process will have a loop which go through n nodes. 
+Time complexity: linear (0(n))

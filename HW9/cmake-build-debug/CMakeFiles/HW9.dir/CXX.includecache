@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/khang/CLionProjects/HW9/hashTable.cpp
+hashTable.h
+C:/Users/khang/CLionProjects/HW9/hashTable.h
+
+C:/Users/khang/CLionProjects/HW9/hashTable.h
+iostream
+-
+cstdlib
+-
+string
+-
+cstdio
+-
+fstream
+-
+algorithm
+-
+
+C:/Users/khang/CLionProjects/HW9/main.cpp
+iostream
+-
+cstdlib
+-
+string
+-
+cstdio
+-
+fstream
+-
+algorithm
+-
+hashTable.h
+C:/Users/khang/CLionProjects/HW9/hashTable.h
+

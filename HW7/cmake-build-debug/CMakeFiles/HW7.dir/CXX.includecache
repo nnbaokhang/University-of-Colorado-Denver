@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/khang/CLionProjects/HW7/Associate.cpp
+iostream
+-
+queue
+-
+fstream
+-
+Teller.h
+C:/Users/khang/CLionProjects/HW7/Teller.h
+
+C:/Users/khang/CLionProjects/HW7/Associate.h
+Teller.h
+C:/Users/khang/CLionProjects/HW7/Teller.h
+
+C:/Users/khang/CLionProjects/HW7/Teller.cpp
+Teller.h
+C:/Users/khang/CLionProjects/HW7/Teller.h
+iostream
+-
+string
+-
+
+C:/Users/khang/CLionProjects/HW7/Teller.h
+queue
+-
+string
+-
+
+C:/Users/khang/CLionProjects/HW7/main.cpp
+iostream
+-
+queue
+-
+Teller.h
+C:/Users/khang/CLionProjects/HW7/Teller.h
+Associate.h
+C:/Users/khang/CLionProjects/HW7/Associate.h
+
